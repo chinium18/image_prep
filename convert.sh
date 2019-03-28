@@ -1,5 +1,6 @@
 #!/bin/bash -l
 
+#Calculate number of lines
 N="$(wc -l $1 | cut -d" " -f1)"
 
 HEIGHT="$(($N*25))"
